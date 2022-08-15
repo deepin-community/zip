@@ -1,0 +1,27 @@
+#!/usr/bin/make -f
+
+CC = gcc
+CFLAGS := `dpkg-buildflags --get CFLAGS` -Wall -I. -DUNIX
+LDFLAGS := `dpkg-buildflags --get LDFLAGS`
+CPPFLAGS := `dpkg-buildflags --get CPPFLAGS`
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	$(MAKE) -f unix/Makefile clean
+
+override_dh_auto_configure:
+	LDFLAGS="$(LDFLAGS)" sh unix/configure "$(CC)" "$(CFLAGS) $(CPPFLAGS)"
+
+override_dh_auto_build:
+	$(MAKE) -f unix/Makefile generic
+
+override_dh_auto_install:
+	$(MAKE) -f unix/Makefile install prefix=`pwd`/debian/tmp/usr
+
+override_dh_installchangelogs:
+	dh_installchangelogs -XCHANGES
+
+override_dh_compress:
+	dh_compress -XTODO -XWHATSNEW

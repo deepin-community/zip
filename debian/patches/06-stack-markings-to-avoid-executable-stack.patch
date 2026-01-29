@@ -1,6 +1,6 @@
 From: Kees Cook <kees@debian.org>
 Subject: put stack markings in i386 assembly to avoid executable stack
-Bug-Debian: http://bugs.debian.org/528280
+Bug-Debian: https://bugs.debian.org/528280
 X-Debian-version: 3.0-2
 
 --- a/crc_i386.S

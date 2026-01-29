@@ -1,2 +1,2 @@
-# generated from copyright.in at build time
-zip source: no-debian-copyright
+# Files amiga/*.a are Amiga assembler
+zip source: unpack-message-for-orig zip_3.0.orig.tar.gz . ar failed for */amiga/*.a

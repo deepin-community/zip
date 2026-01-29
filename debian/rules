@@ -21,7 +21,7 @@ override_dh_auto_install:
 	$(MAKE) -f unix/Makefile install prefix=`pwd`/debian/tmp/usr
 
 override_dh_installchangelogs:
-	dh_installchangelogs -XCHANGES
+	dh_installchangelogs --no-trim -XCHANGES
 
 override_dh_compress:
 	dh_compress -XTODO -XWHATSNEW

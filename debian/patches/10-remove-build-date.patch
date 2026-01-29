@@ -1,6 +1,6 @@
 From: Santiago Vila <sanvila@debian.org>
 Subject: Remove (optional) build date to make the build reproducible
-Bug-Debian: http://bugs.debian.org/779042
+Bug-Debian: https://bugs.debian.org/779042
 
 --- a/unix/unix.c
 +++ b/unix/unix.c

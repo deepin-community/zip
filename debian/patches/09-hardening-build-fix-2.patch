@@ -1,6 +1,6 @@
 From: Santiago Vila <sanvila@debian.org>
 Subject: unix/configure: Take linking flags from the environment
-Bug-Debian: http://bugs.debian.org/673476
+Bug-Debian: https://bugs.debian.org/673476
 X-Debian-version: 3.0-5
 
 --- a/unix/configure

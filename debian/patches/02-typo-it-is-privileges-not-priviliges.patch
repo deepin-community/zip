@@ -1,6 +1,6 @@
 From: A Costa <agcosta@gis.net>
 Subject: manpage typo: priviliges -> privileges
-Bug-Debian: http://bugs.debian.org/309877
+Bug-Debian: https://bugs.debian.org/309877
 X-Debian-version: 2.31-3
 
 --- a/man/zip.1

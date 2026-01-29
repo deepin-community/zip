@@ -1,6 +1,6 @@
 From: Santiago Vila <sanvila@debian.org>
 Subject: Use format specifier %s to print strings, not the string itself
-Bug-Debian: http://bugs.debian.org/673476
+Bug-Debian: https://bugs.debian.org/673476
 X-Debian-version: 3.0-5
 
 --- a/zip.c

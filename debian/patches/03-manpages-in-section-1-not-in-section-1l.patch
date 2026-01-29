@@ -1,6 +1,6 @@
 From: Lior Kaplan <webmaster@guides.co.il>
 Subject: put manpages in section 1, not in section 1L
-Bug-Debian: http://bugs.debian.org/308045
+Bug-Debian: https://bugs.debian.org/308045
 X-Debian-version: 2.31-3
 
 --- a/man/zip.1

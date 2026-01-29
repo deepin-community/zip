@@ -1,6 +1,6 @@
 From: A Costa <agcosta@gis.net>
 Subject: manpage typo: transfering -> transferring
-Bug-Debian: http://bugs.debian.org/301914
+Bug-Debian: https://bugs.debian.org/301914
 X-Debian-version: 2.31-2
 
 --- a/man/zip.1

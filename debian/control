@@ -1,14 +1,17 @@
 Source: zip
 Section: utils
 Priority: optional
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Standards-Version: 4.5.1
+Maintainer: Santiago Vila <sanvila@debian.org>
+Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13), libbz2-dev
-Homepage: http://www.info-zip.org/Zip.html
+Homepage: https://infozip.sourceforge.net/Zip.html
+Vcs-Git: https://salsa.debian.org/sanvila/zip.git
+Vcs-Browser: https://salsa.debian.org/sanvila/zip
+Rules-Requires-Root: no
 
 Package: zip
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: unzip
 Multi-Arch: foreign
 Description: Archiver for .zip files

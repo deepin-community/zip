@@ -9,3 +9,8 @@
 09-hardening-build-fix-2.patch
 10-remove-build-date.patch
 11-typo-it-is-ambiguities-not-amgibuities.patch
+12-fix-build-with-gcc-14.patch
+13-typo-it-is-os-2-not-risc-os-2.patch
+14-buffer-overflow-unicode-filename.patch
+15-buffer-overflow-cve-2018-13410.patch
+16-fix-symlink-update-detection.patch

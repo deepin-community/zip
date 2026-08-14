@@ -1,8 +1,8 @@
-zip (3.0-deepin1) unstable; urgency=medium
+zip (3.0-15+deb13u1) trixie-security; urgency=high
 
-  * update version 
+  * Fix command injection issue. Closes: #1143866.
 
- -- zengwei <zengwei1@uniontech.com>  Tue, 03 Mar 2026 15:40:15 +0800
+ -- Santiago Vila <sanvila@debian.org>  Tue, 11 Aug 2026 00:20:00 +0200
 
 zip (3.0-15) unstable; urgency=medium
 

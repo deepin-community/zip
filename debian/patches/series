@@ -14,3 +14,4 @@
 14-buffer-overflow-unicode-filename.patch
 15-buffer-overflow-cve-2018-13410.patch
 16-fix-symlink-update-detection.patch
+fix-command-injection.patch

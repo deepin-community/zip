@@ -1,3 +1,11 @@
+zip (3.0-deepin2) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-130335 (unknown) - Fix command injection issue
+    Upstream: https://sources.debian.org/data/main/z/zip/3.0-
+    16/debian/patches/fix-command-injection.patch
+
+ -- deepin-ci-robot <packages@deepin.org>  Wed, 18 Nov 2026 01:16:56 +0800
+
 zip (3.0-deepin1) unstable; urgency=medium
 
   * update version 
